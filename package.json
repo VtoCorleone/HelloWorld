@@ -1,0 +1,22 @@
+{
+  "name": "HelloWorld",
+  "version": "1.0.0",
+  "description": "Test app for Heroku deployment",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VtoCorleone/HelloWorld.git"
+  },
+  "author": "Shane Chapman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VtoCorleone/HelloWorld/issues"
+  },
+  "homepage": "https://github.com/VtoCorleone/HelloWorld",
+  "dependencies": {
+    "express": "^4.11.2"
+  }
+}
