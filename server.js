@@ -6,7 +6,7 @@
 
     app.use('/', express.static(__dirname + '/public', { maxAge: 3600000 }));
 
-    var server = app.listen(18320, function () {
+    var server = app.listen(process.env.PORT || 9000, function () {
         console.log('app listening on', server.address().port);
     });
 
